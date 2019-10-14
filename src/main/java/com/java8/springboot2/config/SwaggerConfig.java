@@ -34,6 +34,7 @@ public static final String AUTHORIZATION_HEADER = "Authorization";
 
     @Bean
     public Docket swaggerSpringfoxDocket() {
+    	
 
         Contact contact = new Contact(
             "Gulam Mustafa",
