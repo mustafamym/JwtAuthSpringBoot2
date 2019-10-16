@@ -36,7 +36,7 @@ public static final String AUTHORIZATION_HEADER = "Authorization";
     public Docket swaggerSpringfoxDocket() {
     
         Contact contact = new Contact(
-            "Gulam Mustafa",
+            "Gulam Mustafa -update",
             "https://www.linkedin.com/in/mustafamym/",
             "mustafamym@gmail.com");
 
@@ -44,8 +44,8 @@ public static final String AUTHORIZATION_HEADER = "Authorization";
         
         
         ApiInfo apiInfo = new ApiInfo(
-            "Backend API",
-            "This is the best stuff since sliced bread - API",
+            "Backend API -update ",
+            "This is the best stuff since sliced bread - API -update",
             "6.6.6",
             "https://www.linkedin.com/in/mustafamym/",
             contact,
