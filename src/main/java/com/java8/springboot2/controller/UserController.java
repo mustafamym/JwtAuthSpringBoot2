@@ -26,4 +26,11 @@ public class UserController {
 	public String adminAccess() {
 		return ">>> Admin Contents";
 	}
+	
+	@GetMapping("/api/test/userlist")
+	@PreAuthorize("hasRole('ADMIN')")
+	public String adminGetUserList() {
+		return ">>> Admin Contents";
+	}
+}
 }
