@@ -32,5 +32,5 @@ public class UserController {
 	public String adminGetUserList() {
 		return ">>> Admin Contents";
 	}
-}
+
 }
